@@ -15,6 +15,7 @@
 + https://go.libhunt.com/
 + https://golangweekly.com/issues
 + https://awesome-go.com/
++ https://gocn.vip/
 + Tacey Wong（作者）
 
 文中如无必要不再一一单独进行引用和指出

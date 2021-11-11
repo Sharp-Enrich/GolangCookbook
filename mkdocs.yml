@@ -8,7 +8,10 @@ docs_dir: docs
 nav:
   - 前言: index.md
   - 数据结构和算法: 数据结构和算法/index.md
-  - 函数: 函数/index.md
+  - 函数: 
+    - 导言: 函数/index.md
+    - 可接受任意数量参数的函数: 函数/可接受任意数量参数的函数.md
+    - 可接受不定项命名参数的函数: 函数/可接受不定项命名参数的函数.md
   - 数字日期和时间: 数字日期和时间/index.md
   - 文件与IO: 文件与IO/index.md
   - 网络与Web编程: 网络与Web编程/index.md
