@@ -1,0 +1,62 @@
+site_name: Golang Cookbook
+repo_url: https://github.com/Sharp-Enrich/GolangCookbook
+edit_uri: edit/master/docs/
+site_description: Golang Cookbook,A collection of practical recipes for real world Golang development.
+site_author: Tacey Wong
+copyright: ©2021 Tacey Wong
+docs_dir: docs
+nav:
+  - 前言: index.md
+  - 数据结构和算法: 数据结构和算法/index.md
+  - 函数: 函数/index.md
+  - 数字日期和时间: 数字日期和时间/index.md
+  - 文件与IO: 文件与IO/index.md
+  - 网络与Web编程: 网络与Web编程/index.md
+  - 字符串和文本: 字符串和文本/index.md
+  - C调用: C语言调用/index.md
+  - 运行打包: 运行打包/index.md
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+  palette:
+    
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate 
+      primary: black
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+markdown_extensions:
+  - footnotes
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      encoding: utf-8
+  - pymdownx.highlight:
+      use_pygments: true
+      auto_title: true
+      linenums: true
+      linenums_style: pymdownx-inline
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+
+extra:
+  generator: false
+# https://github.com/zhaoterryy/mkdocs-pdf-export-plugin
+# pip install mkdocs-pdf-export-plugin
+# plugins:
+#     - pdf-export:
+#         combined: true         
