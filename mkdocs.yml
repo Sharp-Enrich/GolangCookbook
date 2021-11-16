@@ -17,7 +17,8 @@ nav:
   - 网络与Web编程: 网络与Web编程/index.md
   - 字符串和文本: 字符串和文本/index.md
   - C调用: C语言调用/index.md
-  - 运行打包: 运行打包/index.md
+  - 运行打包: 
+    - 通过Shebang行运行Go文件: 运行打包/通过Shebang行运行Go文件.md
 theme:
   name: material
   language: zh
