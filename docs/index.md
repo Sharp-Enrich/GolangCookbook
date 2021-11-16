@@ -34,3 +34,5 @@
 **注意**
 
 + 本书主要以Go1.16+（含）为基准，之前版本的不一定适用
++ 每一个章节都有评论区，欢迎评论反馈
++ 无论有无解决方案，有新的问题欢迎在[github提issue](https://github.com/Sharp-Enrich/GolangCookbook/issues)提出新增建议。

@@ -59,6 +59,7 @@ markdown_extensions:
 
 extra:
   generator: false
+  disqus: golang-cookbook
 # https://github.com/zhaoterryy/mkdocs-pdf-export-plugin
 # pip install mkdocs-pdf-export-plugin
 # plugins:
