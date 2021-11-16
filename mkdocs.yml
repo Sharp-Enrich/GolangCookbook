@@ -1,6 +1,7 @@
 site_name: Golang Cookbook
 repo_url: https://github.com/Sharp-Enrich/GolangCookbook
 edit_uri: edit/master/docs/
+site_url: https://golang-cookbook.readthedocs.io
 site_description: Golang Cookbook,A collection of practical recipes for real world Golang development.
 site_author: Tacey Wong
 copyright: ©2021 Tacey Wong
